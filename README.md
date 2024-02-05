@@ -8,6 +8,10 @@ Different functions are used for this detection:
 1. human_detector.py: contains different functions implemented depending on the file format uploaded
 2. main.py: main python code combining easygui to upload image/video and pass the arguments to detect people from the same
 
+Libraries used: opencv,imutils,numpy,os,easygui 
+
+
+
 
 
 
