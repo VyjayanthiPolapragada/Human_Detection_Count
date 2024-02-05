@@ -82,13 +82,13 @@ def detect_Image(path):
 def human_detector(path,file):
     
     if file=='Image':
-        print('[INFO] Opening Image from path.')
+        print('Process Info: Opening Image from path.')
         detect_Image(path)
     if file=='Video':
-        print('[INFO] Opening Video from path.')
+        print('Process Info: Opening Video from path.')
         detect_Video(path)
     if file=='Camera':
-        print('[INFO] Opening Web Cam.')
+        print('Process Info Opening Web Camera.')
         detect_Camera()
 
 
